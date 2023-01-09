@@ -1,0 +1,19 @@
+// 1. write a c program to perfom all arithmatic operation//
+#include<stdio.h>
+int main()
+{
+    int a,b,sum,sub,mty,mod;
+    printf(" Enter two number");
+    scanf("%d %d",&a,&b);
+    sum=a+b;
+    sub=a-b;
+    mty=a*b;
+    float dvd=(float)a/b;
+    mod=a%b;
+    printf("\n The sum of two number is %d",sum);
+    printf("\n The subtraction of two number is %d",sub);
+    printf("\n The multiplication of two number is %d",mty);
+    printf("\n The division of two number is %f",dvd);
+    printf("\n The modulus of two number is %d\n",mod);
+    return 0;
+    }
