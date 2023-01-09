@@ -1,0 +1,11 @@
+//3.write a program to all angle of a traingle if two angles atre given//
+#include<stdio.h>
+int main()
+{
+int a1,a2,a3;
+printf("Enter the two angles ");
+scanf("%d%d",&a1,&a2);
+a3=180-(a1+a2);
+printf("All the angles of a traingle are %d, %d & %d\n",a1,a2,a3);
+return 0;
+}
