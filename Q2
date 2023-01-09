@@ -1,0 +1,13 @@
+//2.write a program to find the area of the traingle if base and hight are given//
+#include<stdio.h>
+int main()
+{
+int base,hight,area;
+printf("Enter base of traingle ");
+scanf("%d",&base);
+printf("Enter the hight of traingle");
+scanf("%d",&hight);
+area=(base*hight)/2;
+printf("Area of traingle is %d\n",area);
+return 0;
+}
