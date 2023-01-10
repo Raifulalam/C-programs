@@ -1,0 +1,13 @@
+//8a. write a program to swap two number using 3rd variabe//
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    printf("Enter two numbers");
+    scanf("%d %d",&a,&b);
+    printf("Before swapping\n first value =%d\n second value =%d\n",a,b);
+    c=a;
+    a=b;
+    b=c;
+    printf("After swpping\n first value =%d \n second value =%d\n",a,b);
+    return 0;
+}
