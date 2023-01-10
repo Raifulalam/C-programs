@@ -1,0 +1,20 @@
+//write a program to check alphabet,digit or special character using conditional operator//
+#include<stdio.h>
+int main()
+{
+    char key;
+    printf("press any key");
+    scanf("%c",&key);
+    if(key>='a' && key<='z'|| key>='A' && key<='Z')
+    {
+        printf("This is an alphabet.\n");
+    }
+else if(key>='0' && key<='9')
+{
+    printf("This is digit.\n");
+}
+else {
+    printf("this is character\n");
+}
+return 0;
+}
