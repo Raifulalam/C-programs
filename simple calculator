@@ -1,0 +1,31 @@
+//write a program to creat a simple calculator//
+#include<stdio.h>
+int main()
+{
+    char op;
+     double a,b;
+     printf("Enter an operator (+,-,*,/):");
+    scanf("%c",&op);
+    printf("Enter two operands:");
+    scanf("%lf %lf",&a,&b);
+    switch(op)
+    {
+    case'+':
+    printf("%lf + %lf=%lf\n",a,b,a+b);
+    break;
+    case '-':
+    printf("%lf-%2lf=%lf\n",a,a-b);
+    break;
+    case '*':
+    printf("%2lf*%2lf=%lf\n",a,b,a*b);
+    break;
+    case '/':
+    printf("%2lf/%2lf=%lf\n",a,b,a/b);
+    break;
+    default:
+    printf("Error! operator is not matched\n");
+
+    }
+    return 0;
+
+}
