@@ -1,0 +1,45 @@
+
+#include <stdio.h>
+ 
+int main()
+{
+    float eng, phy, chem, math, comp; 
+    float total, average, percentage,grade;
+ 
+    printf("Enter marks of five subjects: :- ");
+    scanf("%f%f%f%f%f", &eng, &phy, &chem, &math, &comp);
+ 
+    total = eng + phy + chem + math + comp;
+    average = total / 5.0;
+    percentage = (total / 500.0) * 100;
+ 
+    printf("Total marks = %.2f\n", total);
+    printf("Average marks = %.2f\n", average);
+    printf("Percentage = %.2f\n", percentage);
+    if (percentage>=90)
+    {
+    printf("get grade 'A+'\n");
+    }
+    else if (percentage<90 & percentage>=80)
+    {
+    printf("get grade 'A'\n");
+    }
+    else if (percentage<80 & percentage>=70)
+    {
+        printf("get grade 'B+'\n");
+    }
+    else if (percentage<70 & percentage>=60)
+    {
+    printf("get grade 'B'\n");
+    }
+    else if (percentage<60 & percentage>=50)
+    {
+        printf("get grade 'C+'\n");
+    }
+    else if (percentage<50 & percentage>=40)
+    {
+        printf("get grade 'C'\n");
+    }
+ else printf("you have not get any grade\n");
+    return 0;
+}
