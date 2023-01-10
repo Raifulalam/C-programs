@@ -1,4 +1,4 @@
-// 1. write a c program to perfom all arithmatic operation//
+// 1. write a c program to perfom all arithmetic operation//
 #include<stdio.h>
 int main()
 {
