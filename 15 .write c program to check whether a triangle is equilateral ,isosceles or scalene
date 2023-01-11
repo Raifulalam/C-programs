@@ -1,4 +1,4 @@
- // write c program to check whether a triangle is equilateral ,isosceles or scalene//
+ // 15 .write c program to check whether a triangle is equilateral ,isosceles or scalene//
  #include<stdio.h>
  int main()
  {
