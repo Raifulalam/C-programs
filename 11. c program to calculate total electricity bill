@@ -1,4 +1,4 @@
-// c program to calculate total electricity bill//
+// 11. c program to calculate total electricity bill//
 #include <stdio.h>
 
 int main()
