@@ -1,4 +1,4 @@
-// write a program for day of week using switch case//
+// 12 B . write a program for day of week using switch case//
 #include<stdio.h>
 int main(){
     int week;
