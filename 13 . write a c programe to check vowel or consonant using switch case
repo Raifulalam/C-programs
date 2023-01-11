@@ -1,4 +1,4 @@
-// write a c programe to check vowel or consonant using switch case//
+// 13 . write a c programe to check vowel or consonant using switch case//
 #include<stdio.h>
 int main()
 {
